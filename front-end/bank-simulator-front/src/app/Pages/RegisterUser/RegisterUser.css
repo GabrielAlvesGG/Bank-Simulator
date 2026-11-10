@@ -1,0 +1,57 @@
+.registerUser-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background-color: #f4f6f9;
+    padding: 20px;
+    box-sizing:border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+}
+
+h2 {
+    text-align:center;
+    font-size:20px;
+}
+
+p {
+    text-align:center;
+    color: #666;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input {
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
